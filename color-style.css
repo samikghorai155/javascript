@@ -27,7 +27,7 @@ p{
 }
 /* HSLA color */
 h1{
-    color: hsla(0, 100%, 50%, 0.5);
+    color: hsl(0, 89%, 46%);
 }
 p{
     color: hsla(226, 84%, 17%, 1);
@@ -41,4 +41,5 @@ p{
 /* how to color transparent */
 h1{
     color: rgba(255, 0, 0, 0);
+    color: transparent;
 }
