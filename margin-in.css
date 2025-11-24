@@ -1,0 +1,62 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#2A7B9B,#57C785,#EDDD53),url(IMG_20251117_195631.jpg);
+    
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-heading{
+    padding: 40px 0;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    line-height: 1.56;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+
+.section-one{
+    padding: 50px;
+    width: 1200px;
+    background-color: #575bc7;
+    color: white;
+
+    /* four value */
+    /* margin: 100px 100px 100px 100px; */
+
+    /* three value */
+    /* margin:100px 50px 100px ; */
+
+    /* two value */
+    
+    /* one value */
+ 
+    margin-left: 100px;
+
+    /* auto value */
+    margin: auto;
+       margin-bottom: 20px;
+
+       /* nagative value */
+       /* margin: -50px; */
+}
+
+.section-two{
+       padding: 50px;
+    width: 1200px;
+    background-color: #575bc7;
+    color: white;
+    margin-left: 100px;
+    margin: auto;
+}
