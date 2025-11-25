@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-heading{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+p{
+    line-height: 1.56;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 15px;
+
+}
+
+.section-one{
+    width: 800px;
+    background-color: rgb(2, 2, 107);
+    color: white;
+    border: 20px solid rgb(22, 172, 232);
+    padding: 40px;
+}
