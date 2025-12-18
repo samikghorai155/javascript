@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+}
+
+.hero-section{
+    margin-top: 100px;
+    width: 60%;
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 54px;
+    font-weight: 800;
+    text-align: left;
+    text-decoration-style: double;
+    -moz-text-decoration-style: double;
+    text-decoration-color: #61677a;
+    -moz-text-decoration-color: #61677a;
+    text-decoration-thickness: 2px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.6;
+
+}
+
+p{
+    column-count: 3;
+    column-rule:2px solid red;
+    column-gap:50px;
+    text-align: justify;
+}

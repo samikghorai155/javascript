@@ -1,0 +1,31 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    padding: 0 5rem;
+}
+#main-heading{
+    padding:4rem 0 ;
+    color: black;
+    text-align: center;
+}
+p{
+    line-height: 1.56;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.section-padding{
+    background: linear-gradient(#1f4037,#99f2c8);
+    color: white;
+    border: 10px solid green;
+
+    /* apply to all side */
+    /* padding: 50px; */
+
+    /* top and bottom / left and right */
+        /* padding: 50px 100px; */
+
+        /* top/right/bottom/left */
+        padding: 50px 100px 50px 100px;
+}

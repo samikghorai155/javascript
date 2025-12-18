@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    gap: 64px;
+}
+
+.grid-two-column{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.hero-contain h1{
+    font-size: 40px;
+    text-align: left;
+}
+
+.hero-content p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 50px 0 40px 0;
+}
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+a{
+   background-color: transparent;
+   display: inline-block;
+   padding: 12px 20px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   font-size: 24px;
+   font-weight: 700;
+   border: 1px solid white;
+   color: aliceblue;
+   width: 100px;
+   text-align: center;
+   /*transitincodestarthere*/
+   transition-property: width,color,background-color;
+   transition-duration: 1s;
+   transition-timing-function: linear;
+   transition-delay: 2s;
+   
+   /* transition:width 1s linear 2s ; */
+   
+}
+
+.hero-content a:hover{
+    background-color:blue;
+    color: white;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 54px 55px, rgba(0, 0, 0, 0.5) 0px -12px 30px, rgba(0, 0, 0, 0.15) 0px 4px 6px, rgba(0, 0, 0, 0.8) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;;
+}
+
+img{
+    transition: scale,1s linear;
+    -webkit-transition: scale,1s linear;
+    -moz-transition: scale,1s linear;
+    -ms-transition: scale,1s linear;
+    -o-transition: scale,1s linear;
+}
+img:hover{
+    scale: 1.2;
+}

@@ -1,0 +1,45 @@
+h1{
+    color: red;
+    color: rgb(255,0,0)
+}
+/* RGB  color */
+p{
+    color: blue;
+    color: rgb(0, 0, 255);
+}
+/* RGBA color */
+h1{
+    color: rgba(255, 0, 0, 0.915);
+}
+/* hexadesimal color */
+h1{
+    color: #ff0000;
+}
+p{
+    color: #628141;
+}
+/* HSL color */
+h1{
+    color: hsl(0, 100%, 50%);
+}
+p{
+    color: hsl(226, 84%, 17%);
+}
+/* HSLA color */
+h1{
+    color: hsl(0, 89%, 46%);
+}
+p{
+    color: hsla(226, 84%, 17%, 1);
+}
+.hero-section{
+    color: palegreen;
+}
+p{
+    color: currentColor;
+}
+/* how to color transparent */
+h1{
+    color: rgba(255, 0, 0, 0);
+    color: transparent;
+}

@@ -1,0 +1,29 @@
+@font-face{
+    font-family:'myfont';
+    src: url("./sellinda_bright.zip");
+}
+body{
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+}
+.hero-section{
+    width: 50%;
+}
+h1{
+    
+    font-family: 'myfont';
+    font-size: 35px;
+    font-weight: 900;
+    /* font-style: italic;
+    font-variant: small-caps; */
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}

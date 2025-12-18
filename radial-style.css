@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-image: radial-gradient(circle,#EEAECA 60%,#94BBE9 40%); */
+    /* background-image: radial-gradient(circle,#EEAECA ,#94BBE9 ); */
+    background-image: repeating-radial-gradient(#EEAECA,#94BBE9,#EEAECA 200px);
+}

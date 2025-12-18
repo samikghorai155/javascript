@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+
+}
+
+.container{
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+    gap: 64px;
+}
+
+.grid-two-column{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-contain h1{
+    font-size: 48px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 4px;
+    
+}
+
+.hero-contain h1::before{
+    content: "THE GOAT ";
+    position: absolute;
+    top: -20px;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #ffc800;
+}
+
+.hero-contain H1::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #ff3300;
+    width: 130px;
+}
+
+.hero-contain p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 0;
+}
+
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+a{
+    background-color: transparent;
+    display: inline-block;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+   font-size: 24px;
+   font-weight: 900;
+   border: 1px solid white;
+   color: aliceblue;
+   width: 150px;
+   text-align: center;
+}
+
+.hero-contain p::first-letter{
+    font-size: 40px;
+    color: #ff3300;
+    font-weight: 900;
+}
+
+.hero-contain p::selection{
+    color: aqua;
+}

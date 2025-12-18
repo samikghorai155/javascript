@@ -1,0 +1,49 @@
+
+body{
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main-heading{
+    font-size: 60px;
+    color: rgb(52, 36, 36);
+}
+.section-border{
+    /* width: 1000px; */
+    /* color: #fff;
+    background-color: blue; */
+
+    /* border: 15px solid darkgreen; */
+
+    /* write each property individualy too */
+
+    /* border-width: 15px;
+    border-style: solid;
+    border-color: darkgreen; */
+
+    /* we can write them individualy too */
+
+    /* border-top: 15px solid darkgreen;
+    border-left: 15px solid darkgreen;
+    border-right: 15px solid darkgreen;
+    border-bottom:15px solid darkgreen ; */
+
+    /* or */
+/* border-top-width: 15px;
+border-top-style: solid;
+border-top-style: darkgreen; */
+
+    
+}
+div{
+   width: 500px;
+   height: 500px;
+   background-color: rgb(128, 128, 216);
+   border-radius:100% 0% 100% 0% ;
+   -webkit-border-radius:100% 0% 100% 0% ;
+   -moz-border-radius:100% 0% 100% 0% ;
+   -ms-border-radius:100% 0% 100% 0% ;
+   -o-border-radius:100% 0% 100% 0% ;
+   background-image: linear-gradient(#2A7B9B,#57C785,#C5CC43);
+}

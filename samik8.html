@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html form</title>
+        <style>
+            .sameclass{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML FORM TAG</h1>
+    <h2> <form>
+        <div>
+            <label for="range">Range :</label>
+            <input type="range" name="volume" min="0" max="100" value="50">
+        </div><br />
+        <div>
+            <label for="birthdate">Birthdate :</label>
+            <input type="date" name="birthdate">
+        </div><br />
+        <div>
+            <label for="appointmenttime">Appointmenttime</label>
+            <input type="time" name="appointmenttime">
+        </div><br />
+        <div>
+            <label for="searchquary">searchquary :</label>
+            <input type="search"name="searchquary" placeholder="search....">
+        </div><br />
+        <div>
+            <label for="expairydate">Month & Year:</label>
+            <input type="month"name="expairydate">
+        </div><br />
+        <div>
+            <label for="favcolour">Favcolour :</label>
+            <input type="color"name="favcolour">
+        </div><br />
+        <div>
+            <label for="website">website :</label>
+            <input type="url"name="website" placeholder="enter your url">
+        </div><br />
+            <div>
+                <label for="username">username</label>
+                <input type="text" id="username" class="sameclass" placeholder="enter your username">
+
+            </div>
+            <div>
+                <label for="passward"> passward</label>
+                <input type="passward" id="passward" class="sameclass" placeholder="enter your passward">
+
+            </div>
+            <div>
+                <label for="number">Number</label>
+                <input type="number" id="number" placeholder="enter your number">
+
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="enter your email" required autocomplete="off" size="30" >
+
+            </div>
+            <div>
+                <label for="gendar">Gendar</label>
+                <input type="radio" name="gendar" value="male"/>male
+                <input type="radio" name="gendar" value="female"/>female
+
+            </div>
+             <div>
+                <label for="hobbies">Fav hobbies</label>
+                <input type="checkbox" name="interest" value="music"/>music
+                <input type="checkbox" name="interest" value="sports"/>sports
+                <div>
+                    <label for="country">Fav country :</label>
+                    <select name="country" id="country">
+                    <option value="india">india</option>
+                     <option value="USA">USA</option>
+                      <option value="canada">canada</option>
+                       <option value="dubai">dubai</option>
+                        <option value="france">france</option>
+                         <option value="argentina">argentina</option>
+                         </select>
+                </div>
+
+            </div>
+            <div>
+                <label for="textarea">message</label>
+                <textarea name="" id="textarea" cols="70" rows="10" placeholder="enter your comment"></textarea>
+
+            </div>
+            <div>
+            <label for="file">select file</label>
+            <input type="file" name="fileUpload"/>
+            </div>
+            <input type="submit" value="submit">
+
+            <button type="submit">submit</button>
+            <div>
+                <h1>welcome to 
+                    <span style="color: red;">our website</span></h1>
+            </div>
+            <fieldset>
+                <legend>parsonal info</legend>
+                 <div>
+                <label for="username">username</label>
+                <input type="text" id="username" class="sameclass" placeholder="enter your username">
+
+            </div>
+            <div>
+                <label for="passward"> passward</label>
+                <input type="passward" id="passward" class="sameclass" placeholder="enter your passward">
+
+            </div>
+            <div>
+                <label for="number">Number</label>
+                <input type="number" id="number" placeholder="enter your number">
+
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="enter your email" required autocomplete="off" size="30" >
+
+            </div>
+            </fieldset>
+        </form></h2>
+    </body>
+</html>

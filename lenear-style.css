@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(red,yellow); */
+       /* background-image: linear-gradient( to left, red,yellow); */
+          /* background-image: linear-gradient(to top,red,yellow); */
+             /* background-image: linear-gradient(90deg,red,yellow); */
+                /* background-image: linear-gradient(to bottom left,red,yellow); */
+                   /* background-image: linear-gradient(to top right,red,yellow); */
+                   /* background-image: linear-gradient(to bottom right,
+                   #833AB4,
+                   #FD1D1D,
+                   #FCB045
+                   ); */
+                   /* background-image: repeating-linear-gradient(90deg, #833AB4,#FD1D1D 100px); */
+           background-image: linear-gradient(
+        to top right,
+        rgba(5, 25, 55, 0.8),
+        rgba(8, 78, 182, 0.8),
+        rgba(5, 187, 126, 0.8),
+        rgba(6, 192, 37, 0.8),
+        rgba(165, 220, 13, 0.8)
+    ), url(1000213996.jpg);
+    background-size: cover;
+    background-position: center;
+}
